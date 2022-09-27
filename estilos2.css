@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;/*es para dejar un espacio entre el borde y el contenido*/
+   font-family: sans-serif;
+
+   /*Establecer fondo con degradado y altura para todo el body*/
+   background: linear-gradient(150deg,#0474FA,#22FA04);
+   height: 100vh;
+
+   /*Centrar con flex box el contenedor en el body*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#contenedor{
+
+    background: white;
+    border-radius: 10px; /*redondea los bordes*/
+    width: 400px;
+}
+
+h1{
+    color:#22FA04 ;
+    text-align: center;/*para alinear el texto*/
+    border-bottom: 1px solid #0437FA r;
+    padding-bottom: 20px; 
+}
+
+#contenedor form{
+    padding: 0 40px;
+}
+
+.ingreso{
+    margin: 20px;
+    border-bottom: 2px solid #0437FA  ;    
+}
+
+.ingreso .cuadroText{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    outline: none;/*quita el borde al cuadro de texto*/
+}
+
+#recordar{
+    margin-bottom: 20px;
+}
+
+#boton{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #34D003  ; 
+    background:#03ACFB ;
+    border-radius: 10px;
+    font-size: 18px;/*es para el tamaño de fuente*/
+    color: wheat;
+    cursor: pointer;/*es para poner la manita*/
+}
+
+ #registrarse{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   color: black;
+   font-size: 16px;
+ }
+
+ #registrarse a{
+    color: blue;
+    text-decoration: none;/*sirve para quitarle la linea al texto*/
+ }
+
+ #registrarse a:hover{
+    text-decoration: underline;
+}
+
+#registrarse{
+    text-align: center;
+}
+
+#logo{
+   height: 100px;
+   width: 100px;
+   margin: 5px;
+   padding: 0%;
+   margin: 0 140px;
+   border-radius: 10px;
+   
+
+}
